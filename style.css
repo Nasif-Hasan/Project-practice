@@ -1,0 +1,53 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.half-side {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.half-side img {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.flexing {
+    display: flex;
+}
+
+.top-banner {
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second-banner {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.click-one {
+    text-decoration: none;
+    background: linear-gradient(orange, orangered);
+    padding: 10px 40px;
+    color: wheat;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.click-two {
+    text-decoration: none;
+    background: linear-gradient(navy, #296d98);
+    padding: 10px 40px;
+    color: lightblue;
+    font-weight: 700;
+    border-radius: 20px;
+}
