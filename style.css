@@ -1,6 +1,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1 {
@@ -23,15 +24,18 @@ h1 {
 }
 
 .top-banner {
-    background-image: url(images/shapes/Frame\ 58.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 100px;
 }
 
 .second-banner {
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: left;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 .click-one {
@@ -50,4 +54,53 @@ h1 {
     color: lightblue;
     font-weight: 700;
     border-radius: 20px;
+}
+
+.t-center {
+    width: 60%;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 40px;
+}
+
+.box-shad {
+    box-shadow: 10px 10px 20px 5px gray;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.two-box {
+    margin-left: 3%;
+    margin-right: 7%;
+}
+
+.last-box {
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-left: 10%;
+}
+
+.last-pad {
+    padding-left: 8%;
+}
+
+footer {
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-bottom: 80px;
+}
+
+.pritty {
+    color: orangered;
+}
+
+.nicer {
+    color: #296d98;
 }
